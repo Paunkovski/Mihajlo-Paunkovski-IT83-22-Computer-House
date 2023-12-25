@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.pre-header{
+    background-color: silver;
+    color: black;
+    height: 60px;
+}
+.pre-header .main-menu{
+list-style: none;
+}
+.pre-header img{
+    width: 200px;
+    height: 55px;
+    margin-top: 2px;
+}
+.pre-header .main-menu li a {
+color: black;
+text-decoration: none;
+font-size: 20px; 
+}
+.pre-header .main-menu li{
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 30px;
+    padding-top:17px;
+}
+.pre-header .main-menu .poruci a{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    transition: 0.5s;
+}
+.pre-header .main-menu .poruci a:hover{
+    background-color: silver;
+    border: 1px solid black;
+    color: black
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="pre-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+             <a href="index.html"><img src="img/Capture1.PNG"></a>
+                    </div>
+      
+            <div class="col-sm-6">
+            </div>
+           </div> 
+         </div>
+       </div>
+    </header>
+
+  
+
+
+<div class="container">
+    <label for="ime">Ime</label>
+    <input type="text" placeholder="ime">
+
+    <label for="prezime">Prezime</label>
+    <input type="text" placeholder="prezime">
+
+    <label for="Email">Email</label>
+    <input type="text" placeholder="email">
+
+    <label for="broj">Broj Mobilnog</label>
+    <input type="text" placeholder="06">
+
+    <label for="adresa">Adresa</label>
+    <input type="text" placeholder="adresa">
+
+    <label for="proizvod">Izaberite Proizvod</label>
+    <select id="proizvod">
+      <option value="mis">LOGITECH G502 X Plus Bežični gejmerski miš</option>
+      <option value="LOGITECH">LOGITECH MK295 Silent Wireless US 920-009800 Crna</option>
+      <option value="podloga">Parsec Extra Large Podloga za mišaA</option>
+      <option value="racunar">GIGATRON PBA Nitro Spark Računar</option>
+      <option value="racuunar2">LOGITECH CORDED K280e US 920-005217</option>
+      <option value="racunar3">LOGITECH CORDED K280e US 920-005217</option>
+    </select>
+
+    <label for="komentar">Ostavite Komentar</label>
+    <textarea name="komentar"" style="height:100px"></textarea>
+
+    <input type="submit" value="Potvrdi">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pre-header{
+    background-color: silver;
+    color: black;
+    height: 60px;
+}
+.pre-header .main-menu{
+list-style: none;
+}
+.pre-header img{
+    width: 200px;
+    height: 55px;
+    margin-top: 2px;
+}
+.pre-header .main-menu li a {
+color: black;
+text-decoration: none;
+font-size: 20px; 
+}
+.pre-header .main-menu li{
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 30px;
+    padding-top:17px;
+}
+.pre-header .main-menu .poruci a{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    transition: 0.5s;
+}
+.pre-header .main-menu .poruci a:hover{
+    background-color: silver;
+    border: 1px solid black;
+    color: black
+}
+.pre-header2{
+    margin-top:0px;
+}
+.pre-header2 img{
+    width: 200px;
+    height: 100px;
+}
+.pre-header2 .main-menu2 li{
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 15px;
+    transition: 0.2s;
+}
+
+.pre-header2 .main-menu2{
+    display: flex;
+}
+.pre-header2 .main-menu2 li a{
+    color: black;
+    border: 1px solid silver; 
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.pre-header2 .main-menu2 li a:hover{
+    color: silver;
+    background-color: black;
+    text-decoration-line:underline ;
+}
+.hero{
+    background-image: url(css/poz.jpg);
+    padding-top: 100px;
+    padding-bottom: 220px;
+}
+.hero h1{
+    color: white;
+    text-transform: uppercase;
+    margin-left: 170px;
+    margin-bottom: 10px;
+}
+.hero p{
+    color: white;
+    margin-left: 170px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.hero a{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 170px;
+    transition: 0.2s;
+}
+.hero a:hover{
+    background-color: aliceblue;
+    border: 1px solid blue;
+    color: blue
+}
+.dole h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.dole img{
+    width: 200px;
+    height: 200px;
+}
+
+.dole .item h3{
+    text-align: center; 
+}
+.dole .item a{
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 70px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    transition: 0.25s;
+}
+.dole .item a:hover{
+    color:black; ;
+    background-color: silver;
+}
+.dole .item{
+    background-color: silver;
+    padding-bottom: 10px;
+    border:1px solid black ;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+.dole .item:hover{
+    background-color: #FFE4B5;
+    margin-top: -20px;}
+.dole .item img{
+    margin-left: 30px;
+}
+input[type=text] {
+    margin-top: 13px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 350px;
+    height: 35px;
+}
